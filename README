@@ -11,3 +11,5 @@ Requires the following to run:
  - openssh private key
    - generate using ssh-keygen
    - ex. ssh-keygen -t rsa -b 2048 -C "my username message" -f my_keyname.id_rsa
+
+TODO: add dockerfile, systemd files
