@@ -1,0 +1,13 @@
+Repository Updater
+==================
+
+A simple script to keep a repository with submodules up to date
+ with the latest changes within each submodule.  Currently defaults
+ to a simple commit message and everything works off of the master
+ branch.  See secrets.example for required variables.
+
+Requires the following to run:
+ - secrets.txt with appropriate configuration
+ - openssh private key
+   - generate using ssh-keygen
+   - ex. ssh-keygen -t rsa -b 2048 -C "my username message" -f my_keyname.id_rsa
